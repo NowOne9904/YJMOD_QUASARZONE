@@ -1,0 +1,17 @@
+# 임시 파일 제외
+temp.html
+temp2/
+temp4/
+temp5/
+temp_node/
+
+# 에디터
+.vscode/
+
+# Node
+node_modules/
+.env
+.env.local
+
+# Vercel
+.vercel/

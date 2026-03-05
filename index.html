@@ -655,7 +655,7 @@
         (function () {
           var CACHE_KEY = 'yjmod_recommend_cache';
           var CACHE_EXPIRY_KEY = 'yjmod_recommend_cache_expiry';
-          var CACHE_DURATION_MS = 24 * 60 * 60 * 1000;
+          var CACHE_DURATION_MS = 6 * 60 * 60 * 1000; // 6 hours
 
           function renderRecommend(products) {
             var container = document.getElementById('yjmod-recommend-container');
@@ -761,7 +761,7 @@
         (function () {
           var CACHE_KEY = 'yjmod_gallery_cache';
           var CACHE_EXPIRY_KEY = 'yjmod_gallery_cache_expiry';
-          var CACHE_DURATION_MS = 24 * 60 * 60 * 1000; // 24 hours
+          var CACHE_DURATION_MS = 6 * 60 * 60 * 1000; // 6 hours
 
           function renderGallery(imageUrls) {
             var container = document.getElementById('yjmod-gallery-container');
